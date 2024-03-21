@@ -1,0 +1,14 @@
+.translate-button{
+    height: 3.75em;
+    width: 15.625em;
+    background-color: transparent;
+    border: 0.188em solid var(--main-yellow);
+    color: var(--main-yellow);
+    font-weight: bold;
+    border-radius: 0.938em;
+    justify-self: end;
+}
+.translate-button:hover{
+    color: var(--white);
+    background-color: var(--main-yellow);
+}
