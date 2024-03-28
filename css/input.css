@@ -1,0 +1,22 @@
+.input-container{
+    height: 3.75em;
+    width: 100%;
+    border: 0.125em solid var(--main-yellow);
+    border-radius: 0.938em;
+    justify-self: center;
+}
+input{
+    height: 100%;
+    width: 90%;
+    font-size: 1.5em;
+    padding-left: 1.5em;
+    outline: 0;
+    border: 0;
+    border-radius: 0.938em;
+}
+.translate{
+
+}
+.translated{
+    color: var(--main-yellow);
+}

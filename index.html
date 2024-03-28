@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/input.css">
+    <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/app.js" defer></script>
+    <script src="./js/modo.js" defer></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <title>Lingbee </title>
+</head>
+
+<body id="botao">
+
+    <header>
+        <div class="mode">
+            <input type="checkbox" class="checkbox" id="teste" />
+            <label class="label" for="chk">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="header"></section>
+
+        <section class="title">
+            <img src="./img/bee.png" alt="logo">
+            <h1>Lingbee</h1>
+        </section>
+
+        <section class="input">
+
+            <div class="input-container">
+                <input type="text" class="translate" placeholder="Digite aqui o seu texto" id="translate">
+            </div>
+
+            <div class="input-container" id="input-container">
+                <input type="text" class="translated" id="result" value="translate">
+            </div>
+
+            <button class="translate-button" id="translate-button">TRADUZIR</button>
+        </section>
+    </main>
+</body>
+
+</html>
