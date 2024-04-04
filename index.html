@@ -9,6 +9,27 @@
     <link rel="stylesheet" href="./css/buttons.css">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/app.js" defer></script>
+
+    <script src="./js/modo.js" defer></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+    <title>Lingbee </title>
+</head>
+
+<body id="botao">
+
+    <header>
+        <div class="mode">
+            <input type="checkbox" class="checkbox" id="teste" />
+            <label class="label" for="chk">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+    </header>
+
+    <main>
+
     <!-- <script src="./js/tradutor.js" defer></script> -->
 
     <title>Lingbee | Home</title>
@@ -16,6 +37,7 @@
 <body>
     <nav></nav>
     <main>
+
         <section class="header"></section>
 
         <section class="title">
@@ -28,10 +50,11 @@
             <div class="input-container">
                 <input type="text" class="translate" placeholder="Digite aqui o seu texto" id="translate">
             </div>
+            <div class="input-container" id="input-container">
+                <input type="text" class="translated" id="result" value="translate">
 
             <div class="input-container">
                 <input type="text" class="translated" id="result" value="translate">
-                <input type="text" class="translated" id="result">
             </div>
 
             <button class="translate-button" id="translate-button">TRADUZIR</button>
