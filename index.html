@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +9,7 @@
     <link rel="stylesheet" href="./css/buttons.css">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/app.js" defer></script>
+
     <script src="./js/modo.js" defer></script>
     <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
     <title>Lingbee </title>
@@ -30,6 +30,14 @@
 
     <main>
 
+    <!-- <script src="./js/tradutor.js" defer></script> -->
+
+    <title>Lingbee | Home</title>
+</head>
+<body>
+    <nav></nav>
+    <main>
+
         <section class="header"></section>
 
         <section class="title">
@@ -42,8 +50,10 @@
             <div class="input-container">
                 <input type="text" class="translate" placeholder="Digite aqui o seu texto" id="translate">
             </div>
-
             <div class="input-container" id="input-container">
+                <input type="text" class="translated" id="result" value="translate">
+
+            <div class="input-container">
                 <input type="text" class="translated" id="result" value="translate">
             </div>
 
@@ -51,5 +61,4 @@
         </section>
     </main>
 </body>
-
 </html>

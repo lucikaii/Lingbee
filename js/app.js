@@ -42,4 +42,3 @@ const montarForm = async() => {
 // adicionando um ação para quando o input mudar
 button.addEventListener('click', traduzir)
 
-//funciona
